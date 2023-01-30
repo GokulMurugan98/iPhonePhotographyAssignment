@@ -4,7 +4,7 @@
 //
 //  Created by Gokul Murugan on 2023-01-30.
 //
-
+// MARK: Custom table view cell
 import UIKit
 
 class LessonsTableViewCell: UITableViewCell {

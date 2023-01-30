@@ -27,6 +27,8 @@ class ViewController: UIViewController {
 
 
 extension ViewController:UITableViewDelegate,UITableViewDataSource{
+    
+    // MARK: Table View data population
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return lessonsArray.count
     }
@@ -38,6 +40,7 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         return cell
     }
     
+    // MARK: Selected row functionalities
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         guard let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "DetailsView") as? DetailsViewController else {
@@ -50,7 +53,7 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         navigationController?.pushViewController(vc, animated: true)
     }
     
-    
+    // MARK: Getting data from url and storing it in an array
     func getData(){
         
         guard let url = URL(string: "https://iphonephotographyschool.com/test-api/lessons") else {return}
@@ -84,7 +87,7 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
     
 }
 
-
+// MARK: Added extension to load image view with image using a URL
 extension UIImageView{
     public func getImage(with thumbNailUrl:String){
         guard let url = URL(string: thumbNailUrl) else {
@@ -101,6 +104,7 @@ extension UIImageView{
     }
 }
 
+// MARK: Default model class
 struct Lessons:Codable{
     let lessons:[lesson]
     
