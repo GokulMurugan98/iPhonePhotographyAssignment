@@ -126,6 +126,7 @@
                         <outlet property="lessonDescription" destination="l1j-Gj-t5b" id="1Tx-Ar-Qck"/>
                         <outlet property="lessonThumbnail" destination="QuY-Rb-aHx" id="QB8-Df-45T"/>
                         <outlet property="lessonTitle" destination="6bN-zO-dHw" id="ayF-ZO-cso"/>
+                        <outlet property="playButton" destination="t4V-IF-Utb" id="4co-0P-x7h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hIp-n8-icx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

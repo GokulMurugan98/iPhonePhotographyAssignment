@@ -8,10 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-   
+    
     @IBOutlet weak var tableView: UITableView!
     var lessonsArray:[lesson] = []
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Lessons"
@@ -21,8 +21,8 @@ class ViewController: UIViewController {
         getData()
         
     }
-
-
+    
+    
 }
 
 
@@ -64,7 +64,7 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
             do{
                 let result = try JSONDecoder().decode(Lessons.self, from: data)
                 
-            
+                
                 for i in result.lessons{
                     self?.lessonsArray.append(i)
                 }
@@ -82,7 +82,7 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         }
         task.resume()
         
-       
+        
     }
     
 }
