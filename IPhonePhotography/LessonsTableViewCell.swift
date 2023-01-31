@@ -13,6 +13,7 @@ class LessonsTableViewCell: UITableViewCell {
     @IBOutlet weak var thumbNail: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
+        
         thumbNail.layer.cornerRadius = 15.0
         thumbNail.clipsToBounds = true
     }

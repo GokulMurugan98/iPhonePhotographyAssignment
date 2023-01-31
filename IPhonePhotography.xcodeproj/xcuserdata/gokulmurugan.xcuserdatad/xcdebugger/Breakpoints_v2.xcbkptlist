@@ -115,5 +115,193 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "862C1717-4D5E-4A7B-BE00-BC3870E09927"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IPhonePhotography/DetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "DetailsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "862C1717-4D5E-4A7B-BE00-BC3870E09927 - a710b4b78f1ce127"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IPhonePhotography.DetailsViewController.lessonIdex.getter : Swift.Int"
+                  moduleName = "IPhonePhotography"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gokulmurugan/Downloads/iOS%20Development/IPhonePhotography/IPhonePhotography/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "862C1717-4D5E-4A7B-BE00-BC3870E09927 - b0f6b4343d96bc93"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IPhonePhotography.DetailsViewController.lessonIdex.setter : Swift.Int"
+                  moduleName = "IPhonePhotography"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gokulmurugan/Downloads/iOS%20Development/IPhonePhotography/IPhonePhotography/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "862C1717-4D5E-4A7B-BE00-BC3870E09927 - aa93f71f117d6d80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IPhonePhotography.DetailsViewController.lessonIdex.modify : Swift.Int"
+                  moduleName = "IPhonePhotography"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gokulmurugan/Downloads/iOS%20Development/IPhonePhotography/IPhonePhotography/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "862C1717-4D5E-4A7B-BE00-BC3870E09927 - 9982fbd8dab4001"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IPhonePhotography.DetailsViewController.lessonIdex.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "IPhonePhotography"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gokulmurugan/Downloads/iOS%20Development/IPhonePhotography/IPhonePhotography/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "862C1717-4D5E-4A7B-BE00-BC3870E09927 - 5b6d5d77bf7aab95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IPhonePhotography.DetailsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; IPhonePhotography.DetailsViewController"
+                  moduleName = "IPhonePhotography"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gokulmurugan/Downloads/iOS%20Development/IPhonePhotography/IPhonePhotography/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "388">
+               </Location>
+               <Location
+                  uuid = "862C1717-4D5E-4A7B-BE00-BC3870E09927 - dd83ec06cf589d44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IPhonePhotography.DetailsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;IPhonePhotography.DetailsViewController&gt;"
+                  moduleName = "IPhonePhotography"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gokulmurugan/Downloads/iOS%20Development/IPhonePhotography/IPhonePhotography/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "364">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D727632-2920-4616-AA75-E68CEF651891"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IPhonePhotography/DetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "nextLesson(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A75C7C9-EAF7-4C41-9592-A7D7D87B9E49"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IPhonePhotography/DetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "nextLesson(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D765D4B2-BBA7-4F3E-9AFE-FFFEB2C1282E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IPhonePhotography/DetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "nextLesson(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C793A90B-3E63-424D-9286-FCAAE6469655"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IPhonePhotography/DetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "nextLesson(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B08A540-0371-4A89-ABD5-0CD03C6A8E94"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IPhonePhotography/DetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "nextLesson(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

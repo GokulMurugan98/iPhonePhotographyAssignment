@@ -44,7 +44,7 @@
                     <navigationItem key="navigationItem" id="GYC-ob-5uJ"/>
                     <connections>
                         <outlet property="tableView" destination="Y8W-mi-suQ" id="Cxc-Mm-YIg"/>
-                        <segue destination="VBh-JU-hLn" kind="push" id="W2Z-YT-L6E"/>
+                        <segue destination="VBh-JU-hLn" kind="show" identifier="DetailsView" id="W2Z-YT-L6E"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -59,7 +59,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QuY-Rb-aHx">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QuY-Rb-aHx">
                                 <rect key="frame" x="0.0" y="91" width="390" height="208"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="358" id="hb5-3U-0x5"/>
@@ -126,6 +126,7 @@
                         <outlet property="lessonDescription" destination="l1j-Gj-t5b" id="1Tx-Ar-Qck"/>
                         <outlet property="lessonThumbnail" destination="QuY-Rb-aHx" id="QB8-Df-45T"/>
                         <outlet property="lessonTitle" destination="6bN-zO-dHw" id="ayF-ZO-cso"/>
+                        <outlet property="nextLessonButton" destination="B33-Mv-ai4" id="KNS-5C-EHU"/>
                         <outlet property="playButton" destination="t4V-IF-Utb" id="4co-0P-x7h"/>
                     </connections>
                 </viewController>

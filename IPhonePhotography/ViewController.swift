@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
         tableView.register(UINib(nibName: "LessonsTableViewCell", bundle: nil), forCellReuseIdentifier: "LessonCell")
+        (UIApplication.shared.delegate as! AppDelegate).screenResolution = .portrait
+        
         getData()
         
     }
@@ -46,10 +48,8 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         guard let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "DetailsView") as? DetailsViewController else {
             print("Unable to instantiate view Controler")
             return}
-        vc.videoThumnail = lessonsArray[indexPath.row].thumbnail
-        vc.lessonName = lessonsArray[indexPath.row].name
-        vc.lessonDesc = lessonsArray[indexPath.row].description
-        vc.videoUrl = lessonsArray[indexPath.row].video_url
+        vc.lessonIdex = indexPath.row
+        vc.lessonsArray = lessonsArray
         navigationController?.pushViewController(vc, animated: true)
     }
     
@@ -107,8 +107,8 @@ extension UIImageView{
 // MARK: Default model class
 struct Lessons:Codable{
     let lessons:[lesson]
-    
 }
+
 struct lesson:Codable{
     let id:Int
     let name:String
